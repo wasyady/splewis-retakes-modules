@@ -10,6 +10,7 @@
 - [VipQueue](#VipQueue)
 - [RetakeFFMolotov](#RetakeFFMolotov)
 - [Commands](#Commands)
+- [AntiRush](#AntiRush)
 
 # Core
 - Main plugin for core retake. You can use this to execute the mode without installing others which are for make the retake experience smoother and stabile.
@@ -42,3 +43,8 @@
 - !gun , !guns
 - !weapon
 - !awp
+
+# AntiRush
+- Fixed bugs in [Anti Rush Version 1.3 Updated 01.07.2011](https://forums.alliedmods.net/showthread.php?p=1433894) plugin.
+- "rush" barriers have been set for "de_cache_old, de_dust2, de_inferno, de_mirage, de_overpass, de_train" maps.
+- By setting it up for other maps, you can contribute.
