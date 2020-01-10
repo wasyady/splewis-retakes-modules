@@ -1,10 +1,10 @@
 #include <sourcemod>
 #include <retakes>
-
+#include <multicolors>
 #pragma semicolon 1
 #pragma newdecls required
 
-#define MESSAGE_PREFIX "[\x05Retakes\x01]"
+#define MESSAGE_PREFIX "[\x05SourceTurk\x01]"
 
 ConVar retakesMaxPlayers;
 
@@ -68,7 +68,7 @@ public void Retakes_OnPreRoundEnqueue(ArrayList rankingQueue, ArrayList waitingQ
 		
 		ChangeClientTeam(player, 1);
 		
-		PrintToChat(player, "%T", "Replaced", player, MESSAGE_PREFIX);
+		CPrintToChat(player, "%T", "Replaced", player, MESSAGE_PREFIX);
 		
 		RemoveFromArray(array_players, luck);
 		

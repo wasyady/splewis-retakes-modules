@@ -3,24 +3,24 @@
     "InstaDefuseUnsuccessful"
     {
         "#format"	"{1:s},{2:.1f}"
-        "en"		"{1} There were {2} seconds left of the bomb. Terrorists win."
+        "en"		"{1} There were {green}{2} seconds {default}left of the bomb. {lightred}T win."
     }
     
     "LiveNadeSomewhere"
     {
         "#format"    "{1:s}"
-        "en"        "{1} There is an active grenade somewhere. Good luck defusing!"
+        "en"        "{1} There is an {green}active grenade {default}somewhere."
     }
     
     "MolotovTooClose"
     {
         "#format"    "{1:s}"
-        "en"        "{1} There is a molotov close to the bomb. Good luck defusing!"
+        "en"        "{1} There is a {green}molotov {default}close to the bomb."
     }
     
     "InstaDefuseSuccessful"
     {
         "#format"    "{1:s},{2:.1f}"
-        "en"        "{1} There were {2} seconds left of the bomb. Counter Terrorists win."
+        "en"        "{1} There were {green}{2} seconds {default}left of the bomb. {lightblue}CT win."
     }
 }

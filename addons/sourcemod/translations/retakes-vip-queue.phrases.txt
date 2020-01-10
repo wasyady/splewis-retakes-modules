@@ -3,6 +3,6 @@
 	"Replaced"
 	{
 		"#format" "{1:s}"
-		"en" "{1} You have been placed back in the waiting queue because a VIP has taken your spot."
+		"en" "{1} You have been placed back in the waiting queue because a {green}VIP {default}has taken your spot."
 	}
 }

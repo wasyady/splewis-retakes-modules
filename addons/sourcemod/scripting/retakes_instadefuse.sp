@@ -1,11 +1,12 @@
 #include <sourcemod>
 #include <sdktools>
 #include <cstrike>
+#include <multicolors>
 
 #pragma semicolon 1
 #pragma newdecls required
 
-#define MESSAGE_PREFIX "[\x05Retakes\x01]"
+#define MESSAGE_PREFIX "[\x05SourceTurk\x01]"
  
 Handle hEndIfTooLate = null;
 Handle hDefuseIfTime = null;
@@ -140,7 +141,7 @@ void AttemptInstantDefuse(int client, int exemptNade = 0)
     	{
     		if (IsValidClient(i))
     		{
-	    		PrintToChat(i, "%T", "InstaDefuseUnsuccessful", i, MESSAGE_PREFIX, c4TimeLeft);
+	    		CPrintToChat(i, "%T", "InstaDefuseUnsuccessful", i, MESSAGE_PREFIX, c4TimeLeft);
     		}
     	}
 		
@@ -165,7 +166,7 @@ void AttemptInstantDefuse(int client, int exemptNade = 0)
 	    	{
 	    		if (IsValidClient(i))
 	    		{
-		    		PrintToChat(i, "%T", "LiveNadeSomewhere", i, MESSAGE_PREFIX);
+		    		CPrintToChat(i, "%T", "LiveNadeSomewhere", i, MESSAGE_PREFIX);
 	    		}
 	    	}
 	    	
@@ -178,7 +179,7 @@ void AttemptInstantDefuse(int client, int exemptNade = 0)
     	{
     		if (IsValidClient(i))
     		{
-	    		PrintToChat(i, "%T", "MolotovTooClose", i, MESSAGE_PREFIX);
+	    		CPrintToChat(i, "%T", "MolotovTooClose", i, MESSAGE_PREFIX);
     		}
     	}
 	    
@@ -194,7 +195,7 @@ void AttemptInstantDefuse(int client, int exemptNade = 0)
 	{
 		if (IsValidClient(i))
 		{
-			PrintToChat(i, "%T", "InstaDefuseSuccessful", i, MESSAGE_PREFIX, c4TimeLeft);
+			CPrintToChat(i, "%T", "InstaDefuseSuccessful", i, MESSAGE_PREFIX, c4TimeLeft);
 		}
 	}
 	

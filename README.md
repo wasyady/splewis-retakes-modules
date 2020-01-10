@@ -9,6 +9,7 @@
 - [Instadefuse](#Instadefuse)
 - [VipQueue](#VipQueue)
 - [RetakeFFMolotov](#RetakeFFMolotov)
+- [Commands](#Commands)
 
 # Core
 - Main plugin for core retake. You can use this to execute the mode without installing others which are for make the retake experience smoother and stabile.
@@ -20,7 +21,7 @@
 
 # Allocator
 - Core has weapon menu but  this Allocator plugin is more advanced. In order to use it, remove retakes_pistolallocator and retakes_standardallocator plugins.
-- [RikiGomes/rikiallocator](https://github.com/RikiGomes/rikiallocator)
+- [shanapu/MyWeaponAllocator](https://github.com/shanapu/MyWeaponAllocator)
 
 # Autoplant
 - Autoplant is used for having the bomb planted when round is started.
@@ -35,4 +36,9 @@
 - [b3none/retakes-vip-queue](https://github.com/b3none/retakes-vip-queue)
 
 # RetakeFFMolotov
-- [AlliedModders@Ilusion9](https://forums.alliedmods.net/showpost.php?p=2679040&postcount=10)
+- [Ilusion9/sm-csgo-molotov-damage](https://github.com/Ilusion9/sm-csgo-molotov-damage)
+
+# Commands
+- !gun , !guns
+- !weapon
+- !awp
