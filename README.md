@@ -1,5 +1,8 @@
 # splewis-retakes-modules
  splewis retakes modules
+ 
+# RETAKE TEST SERVER
+**185.171.25.55:27015**
 
 # Index
 - [Core](#Core)
@@ -40,9 +43,10 @@
 - [Ilusion9/sm-csgo-molotov-damage](https://github.com/Ilusion9/sm-csgo-molotov-damage)
 
 # Commands
-- !gun , !guns
-- !weapon
-- !awp
+- !gun , !guns (Default Gun Menu)
+- !weapon, !awp (Allocator Gun Menu)
+- !site
+- !zones (AntiRush)
 
 # AntiRush
 - Fixed bugs in [Anti Rush Version 1.3 Updated 01.07.2011](https://forums.alliedmods.net/showthread.php?p=1433894) plugin.
